@@ -6,21 +6,21 @@ using namespace std;
 void fizzBuzzReplacement(int start, int end) 
 {
     for (int num = start; num <= end; ++num) 
-	{
+    {
         if (num % 3 == 0 && num % 5 == 0) 
-		{
+	{
             cout << "A ";
         } 
-		else if (num % 3 == 0) 
-		{
+	else if (num % 3 == 0) 
+	{
             cout << "F ";
         } 
-		else if (num % 5 == 0) 
-		{
+	else if (num % 5 == 0) 
+	{
             cout << "Z ";
         } 
-		else 
-		{
+	else 
+	{
             cout << num << " ";
         }
     }
@@ -36,10 +36,11 @@ int main()
     cin >> end;
     
     if (start >= end) 
-	{
+    {
         cout << "The first number should be smaller than the second number." << endl;
-    } else 
-	{
+    } 
+    else 
+    {
         fizzBuzzReplacement(start, end);
     }
     return 0;
