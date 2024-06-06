@@ -1,4 +1,4 @@
-//2.	Write a program to input an array of integers and print the array in reverse order.
+// Write a program to input an array of integers and print the array in reverse order.
 #include <stdio.h>
 int main()
 { 	
